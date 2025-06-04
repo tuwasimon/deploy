@@ -3,7 +3,7 @@ import streamlit as st
 import numpy as np
 
 # Load the trained model
-model = joblib.load('tips.pkl')
+model = joblib.load('deploy/tips.pkl')
 
 # Set page config
 st.set_page_config(page_title='Tip Classifier', page_icon='💸', layout='centered')
